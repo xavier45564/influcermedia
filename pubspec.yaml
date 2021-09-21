@@ -1,0 +1,56 @@
+name: influencermedia
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Design
+  google_fonts: ^2.1.0
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.1.0
+  google_nav_bar: ^5.0.5
+  line_icons: ^2.0.1
+  gradient_widgets: ^0.6.0
+  flutter_svg: ^0.22.0
+  auto_size_text: ^3.0.0-nullsafety.0
+  # Firebase
+  firebase_auth: ^1.4.1
+  firebase_app_check:
+  firebase_core: ^1.3.0
+  cloud_firestore: ^2.2.2
+  firebase_storage: ^10.0.1
+  image_picker: ^0.8.3+1
+  # state management
+  provider: ^4.0.3
+  shared_preferences: ^2.0.7
+  # doesn't support null saftey
+  # google_sign_in: ^4.5.1
+  # sign_in_with_apple: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/Buttons/
+    - assets/images/Illustrations/
+    - assets/images/Login Options/
+    - assets/images/Social Icons/
+    - assets/images/User/
+    - assets/images/Icons/
+
+  fonts:
+    - family: Leelaw
+      fonts:
+        - asset: assets/fonts/LeelawUI.ttf
